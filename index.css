@@ -33,9 +33,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+    line-height: 1.5;
+    font-family: Tahoma;
 }
 
-p {
+p, .letter {
     padding-bottom:15px;
 }
 
@@ -60,25 +62,19 @@ p {
     color:#322b14
 }
 
-/* content needs to be centered */
 .intro{
     height: 100vh;
     padding: 50% 10px 0px 10px;
     display: flex;
     justify-content: center;
-    
-    line-height: 1.5;
+    text-align: center;
     font-size: 24px;
     background-color: #322b14;
     color: #E0E0E0;
 }
 
-.intro_container{
-    
-}
-
 .intro_footer{
-    /* bottom */
+    /* not working */
 }
 
 .projects{
@@ -90,9 +86,23 @@ p {
 }
 
 .about{
-    background-color: grey;
+    /* background-color: ; */
     color: black;
+    padding: 10%;
+    padding-bottom: 10px;
+    line-height: 2;
+    height: 90vh;
 }
+
+.dear{
+    padding-bottom: 15px;
+}
+
+.letter{
+    font-size: 14px;
+}
+
+/*Need a better way than height 90hv to include contact on the same page as about*/
 
 .contact{
     background-color: #FED766;

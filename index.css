@@ -33,9 +33,10 @@ body {
     font-family: Tahoma;
 }
 
-p, .letter {
+h2, p, .letter {
     padding-bottom:15px;
 }
+
 
 .nav_container{
     width: 100%;
@@ -79,27 +80,18 @@ p, .letter {
 
 .intro_footer{
     align-self: flex-end;
+    color: #FED766;
+    opacity: .35;
 }
 
 .projects_container{
-    padding-top: 12%;
+    /* display: flex; */
     background-color: #e5e5e5;
 }
 
 .skills_container{
-    padding-top: 12%;
     background-color: purple;
 }
-
-/* .about_container{
-    
-    color: #43464B;
-    
-    padding:10%;
-    padding-bottom: 0;
-    line-height: 2;
-    
-} */
 
 .about_container{
     height: 90vh;

@@ -43,7 +43,7 @@ p, .letter {
     top: 0px;
     padding: 6px 0px;
     text-transform: uppercase;
-    background-color: rgb(100, 89, 57);
+    background-color: #FED766;
 /* is it ok to have position and display? */
     display: flex;
     flex-direction: row;
@@ -55,7 +55,6 @@ p, .letter {
     text-decoration: none; 
     color:#43464B;
 }
-
 .intro_container{
     height: 100vh;
     display: flex;
@@ -66,6 +65,17 @@ p, .letter {
     background-color: #43464B;
     color: #E0E0E0;
 }
+/* .intro_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    background-color: #43464B;
+    color: #E0E0E0;
+} */
 
 .intro_footer{
     align-self: flex-end;
@@ -81,14 +91,26 @@ p, .letter {
     background-color: purple;
 }
 
-.about_container{
-    /* background-color: ; */
+/* .about_container{
+    
     color: #43464B;
-    /* padding-top: 12%; */
+    
     padding:10%;
     padding-bottom: 0;
     line-height: 2;
-    /* height: 90vh; */
+    
+} */
+
+.about_container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    background-color: white;
+    color: #43464B;
+    /* better way than padding? */
+    padding: 0 10%;
+    /* same problem as before with signature to right and bottom */
 }
 
 .letter{

@@ -43,7 +43,7 @@ p, .letter {
     top: 0px;
     padding: 6px 0px;
     text-transform: uppercase;
-    background-color: #FED766;
+    background-color: rgb(100, 89, 57);
 /* is it ok to have position and display? */
     display: flex;
     flex-direction: row;
@@ -53,22 +53,22 @@ p, .letter {
 
 .nav_container a{
     text-decoration: none; 
-    color:#322b14
+    color:#43464B;
 }
 
 .intro_container{
     height: 100vh;
-    padding: 50% 10px 0px 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 24px;
-    background-color: #322b14;
+    background-color: #43464B;
     color: #E0E0E0;
 }
 
 .intro_footer{
-    /* not working */
+    align-self: flex-end;
 }
 
 .projects_container{
@@ -83,7 +83,7 @@ p, .letter {
 
 .about_container{
     /* background-color: ; */
-    color: black;
+    color: #43464B;
     /* padding-top: 12%; */
     padding:10%;
     padding-bottom: 0;
@@ -93,6 +93,7 @@ p, .letter {
 
 .letter{
     font-size: 14px;
+    color:#43464B;
 }
 
 /*Need a better way than height 90hv to include contact on the same page as about*/
@@ -103,7 +104,7 @@ p, .letter {
 
 .contact_container a{
     text-decoration: none; 
-    color:#322b14;
+    color:#43464B;
 }
 .contact_container{
     display: flex;

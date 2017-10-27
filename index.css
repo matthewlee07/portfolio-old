@@ -87,33 +87,58 @@ h2, p, .letter {
     opacity: .35;
 }
 
+/* Make projects@nav line up correctly */
 .projects_container{
     /* display: flex; */
     background-color: #e5e5e5;
 }
 
+/* make skills@nav line up correctly */
 .skills_container{
+    border: 1px solid red;
+    width: 100%;
     background-color: grey;
     display:flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 6px;
     list-style-type: none;
 }
 
 .frontend{
-    border:2px solid red;
+    display: flex;
+    justify-content: flex-start;
     padding: 6px;
+}
+
+.frontend_development{
+    /* bad */
+    padding-right: 12px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+.frontend_tools{
+    /* bad */
+    min-width: 30%;
+    margin: auto;
 }
 
 .backend{
-    border:1px solid cyan;
+    display: flex;
+    flex-direction: row-reverse;
     padding: 6px;
+}
+
+.backend_development{
+    padding-left: 12px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+}
+
+.backend_tools{
+    /* bad */
+    min-width: 30%;
+    margin: auto;
 }
 
 .about_container{

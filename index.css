@@ -143,7 +143,7 @@ h2, p, .letter {
 
 .about_container{
     height: 90vh;
-    min-height: 500px;
+    min-height: 300px;
     display: flex;
     align-items: center;
     font-size: 24px;
@@ -157,12 +157,25 @@ h2, p, .letter {
 .letter{
     font-size: 14px;
     color:#43464B;
+    line-height: 2
+}
+
+.letter>p{
+    padding-bottom: 16px;
+}
+
+.signature{
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*Need a better way than height 90hv to include contact on the same page as about*/
 
 .contact_container{
     background-color: #FED766;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contact_container a{

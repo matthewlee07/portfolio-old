@@ -45,7 +45,6 @@ h2, p, .letter {
     padding: 6px 0px;
     text-transform: uppercase;
     background-color: #FED766;
-/* is it ok to have position and display? */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -56,7 +55,7 @@ h2, p, .letter {
     text-decoration: none; 
     color:#43464B;
 }
-.intro_container{
+/* .intro_container{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -65,8 +64,8 @@ h2, p, .letter {
     font-size: 24px;
     background-color: #43464B;
     color: #E0E0E0;
-}
-/* .intro_container{
+} */
+.intro_container{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -76,10 +75,14 @@ h2, p, .letter {
     font-size: 24px;
     background-color: #43464B;
     color: #E0E0E0;
-} */
+}
+.intro_top{
+    margin-top: auto;
+}
 
 .intro_footer{
-    align-self: flex-end;
+    margin-top: auto;
+    /* align-self: flex-end; */
     color: #FED766;
     opacity: .35;
 }
@@ -90,11 +93,32 @@ h2, p, .letter {
 }
 
 .skills_container{
-    background-color: purple;
+    background-color: grey;
+    display:flex;
+    flex-direction: column;
+    padding: 6px;
+    list-style-type: none;
+}
+
+.frontend{
+    border:2px solid red;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.backend{
+    border:1px solid cyan;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .about_container{
     height: 90vh;
+    min-height: 500px;
     display: flex;
     align-items: center;
     font-size: 24px;
